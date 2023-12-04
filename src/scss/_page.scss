@@ -1,0 +1,54 @@
+.header-home{
+    background-image: url('../assets/img/fondo-pantalla.jpg');
+    background-size: cover;
+    padding-bottom: 5rem;
+}
+
+.carousel-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    text-align: center;
+}
+.carousel-title{
+    margin-top: 5rem;
+}
+.carousel-cards{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+}
+.carousel-cards-items{
+    background-color: #faebd7;
+    width: 30rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    
+    img{
+        width: 100%;
+        border-radius: 8px;
+    }
+    
+}
+
+.category{
+    
+    padding: 2rem;
+    
+}
+.button-category{
+    cursor: pointer;
+    color: white;
+    border-radius: 7px;
+    border:none;
+    background-color:#5100ff;
+    margin-left: 3rem;
+    padding:10px 20px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.button-category:hover{
+    background-color: #002121;
+}
